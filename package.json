@@ -1,0 +1,27 @@
+{
+  "name": "kafka-self-service-common",
+  "version": "0.0.1",
+  "description": "common shared types for frontend and backend",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "test": "yarn test"
+  },
+  "keywords": [
+    "kafka",
+    "typescript"
+  ],
+  "author": "iAmritMalviya",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
